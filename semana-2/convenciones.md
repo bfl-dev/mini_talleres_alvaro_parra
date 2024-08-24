@@ -25,7 +25,7 @@ Este convencion dicta que el mensaje de un commit:
 ```  
 
 ## Listado de convenciones principales
-- Un commit DEBE tener un prefijo con el tipo de commit, siendo este un sustantivo, `fix`, `feat`, etc. Seguido por un alcance (scope) OPCIONAL, un `!` OPCIONAL y el ":" y espacio.
+- Un commit DEBE tener un prefijo con el tipo de commit, siendo este un sustantivo, `fix`, `feat`, etc. Seguido por un alcance (scope) OPCIONAL, un `!` OPCIONAL y el ':' y espacio.
 
 - El tipo `feat` DEBE ser utilizado cuando el commit añade una nueva funcionalidad.
 
@@ -34,7 +34,7 @@ Este convencion dicta que el mensaje de un commit:
 - Un alcance (Scope) PUEDE ser añadido despues de un tipo. Este consiste de un sustantivo, describiendo alguna parte del codigo base, dentro de un parentesis.
 Ejemplo: `fix(parser)`
 
-- La descripcion DEBE inmediatamente despues del ":" y el espacio despues del prefijo de tipo/alcance. La descripcion es un resumen de los cambios realizados. Ejemplo: `fix: error de division al tratar de dividir por 0`
+- La descripcion DEBE inmediatamente despues del ':' y el espacio despues del prefijo de tipo/alcance. La descripcion es un resumen de los cambios realizados. Ejemplo: `fix: error de division al tratar de dividir por 0`
 
 - PUEDE añadirse un cuerpo de texto del mensaje de un commit mas grande despues de la descripcion. Este DEBE empezar despues de un salto de linea.
 
@@ -42,9 +42,9 @@ Ejemplo: `fix(parser)`
 
 - Los BREAKING CHANGE DEBEN ser indicados en el prefijo de tipo/alcance. O pueden añadirse como un pie de pagina en el mensaje.
 
-- Si se indica un BREAKING CHANGE en el prefijo, este DEBE ser indicado antes del ":" como un `!`. Si se utiliza esta opcion, la opcion de pie de pagina PUEDE no utilizarse y se DEBERA describir el cambio en el cuerpo del commit.
+- Si se indica un BREAKING CHANGE en el prefijo, este DEBE ser indicado antes del ':' como un `!`. Si se utiliza esta opcion, la opcion de pie de pagina PUEDE no utilizarse y se DEBERA describir el cambio en el cuerpo del commit.
 
-- Si se indica un BREAKING CHANGE en el pie de pagina, este DEBE consistir en el texto "BREACKING CHANGES" en mayusculas, seguido por un ":", un espacio, y la descipcion.
+- Si se indica un BREAKING CHANGE en el pie de pagina, este DEBE consistir en el texto "BREACKING CHANGES" en mayusculas, seguido por un ':', un espacio, y la descipcion.
 
 ### Glosario
 
