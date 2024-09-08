@@ -4,112 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Periodico TXT</title>
-    <!--
-    <style>
-        :root
-        {
-            display: flex;
-            justify-content: center;
-        }
-        .tendencias-tb
-        {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .title-container
-        {
-            display: grid;
-            grid-gap: 0.20px;
-            padding: 0px;
-
-        }
-        .title-info
-        {
-            text-align: left;
-            display:contents;
-        }
-        .image-box
-        {
-            display: contents;
-        }
-        h1
-        {
-            display: flex;
-        }
-    </style>
-    -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
+    <div class="topnav">
+
+        <!-- Centered link -->
+        <div class="topnav-centered">
+          <img src="assets/Logotipo_diario_La_Tercera.svg" alt="" id="logo">
+        </div>
+      
+        <!-- Left-aligned links (default) -->
+        <img src="assets/lines.svg" alt="">
+        <a href="#contact">Secciones</a>
+        <img src="assets/search-icon.svg" alt="">
+       
+      
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+            <button >Ingresar</button>
+            <a href="#about">About</a>
+        </div>
+      
+      </div>
+
+    <div class="cuerpo">
         <header>
-            <table>
-                <tr>
-                <th id="menu button"> 
-                    <img src="content/lines.svg" alt="" style="height: 20px;"> 
-                </th>
-                <th id="logo"> 
-                    <img src="content/Logotipo_diario_La_Tercera.svg" alt="" style="height: 20px;"> 
-                </th>
-                <th> 
-                    <button id="suscribe-button">Suscribete</button> 
-                </th>
-                <th>Ingresar</th>
-                </tr>
-            </table>
-        </header>
-    </div>
-
-    <div id="cuerpo">
-        <section>
-            <div id="tendencias">
-                <table class="tendencias-tb">
-                    <tr>
-                        <th><h3>TENDENCIAS</h3></th>
-                        <th></th>
-                        <th>Ciencia</th>
-                        <th></th>
-                        <th>Astrofisica</th>
-                        <th></th>
-                        <th>...</th>
-                    </tr>
-                </table>
-            </div>
-
             <div class="title-container">
-                <table id="title-table-box">
-                    <tr>
-                        <th>
-                            <div class="title-info">
-                                <div class="h1">
-                                    <h1>Por qué la astrofísica y líder del Instituto Carl Sagan dice que el anuncio de vida extraterrestre podría ser inminente</h1>
-                                </div>
-                                    <div class="title-desc">
-                                    <small>María José Gómez</small>
-                                    <h5>HACE 7 HORAS</h5>
-                                    <h6>Tiempo de lectura: 5 minutos</h6>
-                                </div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="image-box">
-                                <img src="content/noticiafoto.avif" alt="">
-                            </div>
-                            <small>Por qué la astrofísica y líder del Instituto Carl Sagan dice que el anuncio de vida extraterrestre podría ser inminente. Foto: ESO.</small>
-                        </th>
-                    </tr>
-                </table>
+                <div class="text-container">
+                    <div class="tendencias-bar">
+                        <p>Tendencias</p>                        
+                        <button class="tendencia-btn">
+                            Ciencias
+                        </button>
+                        <button class="tendencia-btn">
+                            Astrofisica
+                        </button>
+                    </div>
+                    <div class="title">
+                        <h1>Por qué la astrofísica y líder del Instituto Carl Sagan dice que el anuncio de vida extraterrestre podría ser inminente</h1>
+                    </div>
+                    <article>
+                        <h3>Lisa Kaltenegger, experta en la búsqueda de planetas habitables, asegura que “vivimos en esta era de exploración dorada, con miles de otros mundos a la vuelta de la esquina, que ahora podemos explorar de verdad”.</h3>
+                    </article>
+                    <div class="title-desc">
+                        <small>María José Gómez</small>
+                        <div class="time">
+                            <p>HACE 7 HORAS</p>
+                        </div>
+                        <p id="lecture-time">
+                            Tiempo de lectura: 5 minutos
+                        </p>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/noticiafoto.avif" alt="">
+                    <small>Por que la astrofisica y lider del Instituto Carl Sagan dice que el anuncio de vida extraterrestre podria ser inminente
+                        <br>
+                        Foto: ESO.
+                    </small>
+                </div>
             </div>
-        </section>
-
+        </header>
         <article>
-            <br>
-            <br>
-            <br>
-            <h3>Lisa Kaltenegger, experta en la búsqueda de planetas habitables, asegura que “vivimos en esta era de exploración dorada, con miles de otros mundos a la vuelta de la esquina, que ahora podemos explorar de verdad”.</h3>
+            <div class="content-container">
+                <div class="socials">
+                    <p>
+                        COMPARTIR
+                    </p>
+                    <button>
+                        <img src="assets/lines.svg" alt="">
+                    </button>
+                    <button>
+                        <img src="assets/lines.svg" alt="">
+                    </button>
+                    <button>
+                        <img src="assets/lines.svg" alt="">
+                    </button>
+                </div>
+                <div class="content-text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum provident laborum asperiores placeat ea ex dolorum obcaecati ab deleniti vel ratione saepe culpa, molestias voluptatem dolores inventore error? Perspiciatis, magnam.
+                </div>
+                <div class="recomended">
+                    asd
+                </div>
+            </div>
         </article>
     </div>
 
-    <div id="footer">
+    <div class="footer">
 
     </div>
 </body>

@@ -1,0 +1,204 @@
+*
+{
+    background-color: #f7f7f7 ;
+    margin: 0%;
+    font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;;
+}
+
+.topnav image
+{
+    height: 20px;
+}
+
+.topnav {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    background-color: white;
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    float: left;
+    color: black;
+    padding: 16px 16px;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffba07;
+}
+
+.topnav img
+{
+    background-color: white;
+    height: 20px;
+    float: left;
+    padding: 14px 16px;
+}
+
+#logo
+{
+    background-color: white;
+    height: 90%;
+    width: auto;
+    float: left;
+}
+
+
+.topnav img:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    color: white;
+}
+  
+/* Centered section inside the top navigation */
+.topnav-centered img {
+    height: 20px;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+
+.cuerpo
+{
+    display: grid;
+    position: relative;
+    padding: 4%;
+    gap :20%;
+}
+
+.cuerpo .text-container
+{
+    display: grid;
+    gap: 10%;
+    margin-right: 10%;
+}
+
+.cuerpo .title-container
+{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 7fr 5fr;
+    justify-content: space-between;
+}
+
+.cuerpo .title-desc
+{
+    display: flex;
+    gap: 5px;
+}
+
+.cuerpo .title-desc small
+{
+    font-size: 16px;
+    color: gray;
+}
+
+.cuerpo .title-desc .time p 
+{
+   font-weight: bold;
+}
+
+                        
+#lecture-time
+{
+    font-size: smaller;
+}
+
+.cuerpo .tendencias-bar
+{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.cuerpo .tendencias-bar button
+{
+    display: inline-flex;
+    align-items: center;
+    border-style: none;
+    padding: 10px 12px;
+    background-color: rgb(73, 233, 233);
+    height: 1.25rem;
+    border-radius: 10px;
+}
+
+.cuerpo .image-box img
+{
+    width: 100%;
+    height: auto;
+}
+
+.cuerpo .image-box small
+{
+    font-size: 11px;
+    
+}
+
+.cuerpo .content-container
+{
+    display: flex;
+    gap: 10%;
+    padding-inline: 50px;
+}
+
+.cuerpo .content-container .socials
+{
+    display: grid;
+    gap: 5px;
+}
+
+.cuerpo .content-container .socials p
+{
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 20%;
+}
+
+.cuerpo .socials button
+{
+    width: auto;
+    padding: 8px;
+    align-items: center;
+    border-radius: 100%;
+    border-width: 1.5px;
+    border-color: gray;
+}
+.cuerpo .socials button img
+{
+    height: 20px;
+    width: auto;
+}
+
+
